@@ -1,0 +1,58 @@
+.skills-div{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .3)), url("../images/nycskyline1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.skill-icons{
+  border-radius: 25px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .5);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: space-evenly;
+  opacity: 1;
+  filter: brightness(1);
+}
+
+#skill1, #skill2, #skill3, #skill4{
+  margin-top: 50px;
+}
+
+#skill1, #skill3, #skill6, #skill8{
+  animation: bounce .7s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
+}
+
+#skill2, #skill4, #skill9, #skill11{
+  animation: bounce .8s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
+}
+
+#skill5, #skill7, #skill10, #skill12{
+  animation: bounce .9s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from {
+      transform: translate3d(0, 0, 0);
+  }
+  to {
+      transform: translate3d(0, 15px, 0);
+  }
+}
+

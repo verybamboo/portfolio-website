@@ -1,0 +1,28 @@
+.top-bar-div{
+  display: flex;
+  justify-content: space-evenly;
+  right: 0;
+  border: 1px solid black;
+  color: white;
+  width: 100%;
+  height: 50px;
+  border: 1px solid white;
+  align-items: center;
+  text-decoration: none;
+  background-color: black;
+  z-index: 1;
+}
+
+.top-bar-home, .top-bar-project, .top-bar-skills, .top-bar-profile, .top-bar-contact{ 
+  color: white;
+  text-decoration: none;
+}
+
+.top-bar-home:hover, .top-bar-project:hover, .top-bar-skills:hover, .top-bar-profile:hover, .top-bar-contact:hover{
+  color: black;
+  background: white;
+  border-radius: 2px;
+}
+
+
+

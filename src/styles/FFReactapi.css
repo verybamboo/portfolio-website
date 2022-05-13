@@ -1,0 +1,67 @@
+.main-div{
+  height: 94vh;
+  background: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .45)), url("../images/ffreactapi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.whole-card{
+  margin: 10px;
+}
+
+.whole-card:hover{
+  transition: 1s;
+  box-shadow: -15px 15px 15px -15px rgba(255, 255, 255, .5);
+}
+
+.card-body{
+  color: white;
+  background-color: black;
+  height: 80vh;
+}
+
+.card-title, .card-text, .card-links{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.card-links{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.card-links:hover{
+  color: red;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    white 0%,
+    brown 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 50% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 25px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

@@ -1,0 +1,28 @@
+.all-projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  text-decoration: none;
+}
+
+.all-projects-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav{
+  border: 1px solid white;
+}
+
+.nav-link{
+  color: white;
+  border: 1px solid black;
+}
+
+.nav-link:hover{
+  color: white;
+}
+

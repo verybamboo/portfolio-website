@@ -1,0 +1,70 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: flex-start;
+  justify-items: left;
+}
+
+.contact-section{
+  background: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .45)), url("../images/nycskyline1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  justify-content: flex-end;
+  margin-top: auto;
+  padding: 0;
+  font-size: 1em;
+  font-weight: 800;
+  letter-spacing: 0.5em;
+  color: white;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+.inputs {
+  margin: 1em;
+  color: black;
+}
+
+.submit-button{
+  width: 15em;
+  border-radius: 4px;
+  padding: 0.4em;
+  margin: 1em;
+  color: white;
+  background: black;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.submit-button:hover {
+  background-position: left bottom;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+}
+
+.contact-title {
+  margin-top: 5em;
+  font-weight: 700;
+}
+
+.label {
+  font-weight: 900;
+  color: white;
+  font-size: 20px;
+}

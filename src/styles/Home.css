@@ -1,0 +1,190 @@
+.home{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  background: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .45)), url("../images/nycskyline3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home-pic{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 15%;
+  filter: invert(1);
+  width: 28%;
+}
+
+.home-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.home-text-boxes{
+  margin-left: 40px;
+  width: 80%;
+  animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  -webkit-animation: fadein 3s;
+  -o-animation: fadein 3s;
+  display: flex;
+  flex-direction: row;
+}
+
+.home-header{
+  position: relative;
+}
+
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+@-moz-keyframes fadein { 
+  from {
+    opacity:0;
+  }
+  to {
+    opacity: .5;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+    opacity: .5;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+    opacity: .5;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.home-paragraph{
+  font-size: 17px;
+}
+
+.fullstack-icon{
+  margin-right: 10px;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  animation: flip2 5s infinite linear;
+  animation-delay: 2s;
+}
+
+.span-letters-1{
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: .2s;
+}
+
+.span-letters-2{
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: .4s;
+}
+
+.span-letters-3{
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: .6s;
+}
+
+.span-letters-4{
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: .8s;
+}
+
+.span-letters-5{
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: 1s;
+}
+
+.span-letters-6{
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: 1.2s;
+}
+
+.span-letters-7{
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: 1.4s;
+}
+
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+@keyframes flip2 {
+  from {
+    transform: rotateY(0deg) 
+  }
+  to{
+    transform: rotateY(359deg);
+  }
+}
