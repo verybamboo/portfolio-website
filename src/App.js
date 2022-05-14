@@ -1,6 +1,4 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Navbar } from "react-bootstrap";
 import Projects from "./components/Projects";
 import Topbar from "./components/Topbar";
 import Home from "./components/Home";
