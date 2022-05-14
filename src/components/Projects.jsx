@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Projects.css"
 import Whackadiglett from "./Whackadiglett";
 import FFreactapi from "./FFReactapi";
+import Backrub from "./Backrub"
 
 export default function Projects() {
   return (

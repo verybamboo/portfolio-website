@@ -10,16 +10,10 @@ import {
   IoLogoGithub,
 } from "react-icons/io";
 
-const fadeFromRight = {
-  hidden: { opacity: 0, x: 800 },
-  visible: { opacity: 1, x: 690 },
-};
-
 export default function Sidebar() {
   return (
     <motion.div
       className="side-bar-social"
-      variants={fadeFromRight}
       initial="hidden"
       animate="visible"
       transition={{ duration: 1 }}
@@ -28,7 +22,7 @@ export default function Sidebar() {
         href="https://www.linkedin.com/in/georgechen1338/"
         target={"_blank"}
         whileHover={{ scale: 1.2, color: "#0077b5" }}
-        variants={fadeFromRight}
+
         inital={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
@@ -39,7 +33,6 @@ export default function Sidebar() {
       <motion.a
         href="https://twitter.com/reallybamboo"
         whileHover={{ scale: 1.2, color: "#55acee" }}
-        variants={fadeFromRight}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
@@ -51,7 +44,6 @@ export default function Sidebar() {
         href="https://github.com/verybamboo"
         target={"_blank"}
         whileHover={{ scale: 1.2, color: "#e4405f" }}
-        variants={fadeFromRight}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
@@ -63,7 +55,6 @@ export default function Sidebar() {
         href="mailto:georgechen1338@gmail.com"
         target={"_blank"}
         whileHover={{ scale: 1.2, color: "#0077b5" }}
-        variants={fadeFromRight}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
@@ -75,7 +66,6 @@ export default function Sidebar() {
         href="https://www.instagram.com/verybamb00/"
         target={"_blank"}
         whileHover={{ scale: 1.2, color: "#cd201f" }}
-        variants={fadeFromRight}
         inital={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
