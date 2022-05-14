@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/Profile.css"
 import ProfilePic from "../images/profilepic.jpeg"
 import styled from "styled-components";
-import { motion } from "framer-motion";
 
 const Section = styled.section`
   height: 100vh;

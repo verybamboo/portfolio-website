@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div id="home" className="home">
       <div className="home-pic">
-        <img className="fullstack-icon" src={Fullstack}></img>
+        <img className="fullstack-icon" src={Fullstack} alt="icon"></img>
       </div>
       <div className="home-text">
         <div className="home-text-boxes">

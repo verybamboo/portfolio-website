@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Sidebar.css"
 import { AiOutlineMail } from "react-icons/ai";
 import { motion } from "framer-motion";
-import styled from "styled-components";
+
 import {
   IoLogoTwitter,
   IoLogoLinkedin,

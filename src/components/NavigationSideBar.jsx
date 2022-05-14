@@ -1,7 +1,6 @@
 import React from "react"
 import "../styles/NavigationSideBar.css"
 import { motion } from "framer-motion";
-import styled from "styled-components";
 import { IoMdHome, IoMdContacts } from "react-icons/io";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai"
 import { BsTools } from "react-icons/bs"

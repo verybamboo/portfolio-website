@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Skills.css"
-import Imageset from "../images/logos/imageSet.js"
 import imageSet from "../images/logos/imageSet.js";
 
 export default function Skills() {
@@ -14,6 +13,7 @@ export default function Skills() {
               height={120}
               className="skill-logos"
               id={"skill" + item.number}
+              alt="skill"
             />
           </div>
         ))}
