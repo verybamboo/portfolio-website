@@ -11,7 +11,7 @@ export default function FFReact() {
         <Card.Body className="card-body">
           <Card.Title className="card-title">Backrub.wiki - Google Archive API</Card.Title>
           <Card.Text className="card-text">
-          A group project made with 2 other co-hort mates from General Assembly. The website fetches from a deployed back-end that we made using MongoDB and Heroku. You are able to view tech articles from the NYT for the last 20 or so years.
+          A group project made with 2 other cohort mates from General Assembly. The website fetches from a deployed back-end that we made using MongoDB and Heroku. You are able to view tech articles from the NYT for the last 20 or so years.
           </Card.Text>
           <Card.Text className="card-links">
             <a className="card-links" href="https://github.com/verybamboo/google-archive-api">Google API (Backrub) Repo</a>
