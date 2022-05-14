@@ -11,7 +11,7 @@ export default function Topbar()
       </a>  
       <a href="#skills" className="top-bar-skills">Skills
       </a>
-      <a href="#projects-holder" className="top-bar-project">Projects
+      <a href="#projects" className="top-bar-project">Projects
       </a>
       <a href="#profile" className="top-bar-profile">Profile
       </a>

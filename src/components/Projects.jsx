@@ -17,6 +17,7 @@ export default function Projects() {
             <FFreactapi />
           </Tab>
           <Tab eventKey="project-backrub" title="Backrub.wiki" className="tab-button">
+            <Backrub />
           </Tab>
         </Tabs>
       </div>
