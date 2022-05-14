@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap";
 
 export default function FFReact() {
   return (
-    <div className="main-div">
+    <div className="main-div-ff">
       <Card className="whole-card" style={{ width: '30rem' }}>
         <Card.Img variant="top" src={FFreactapi} className="react-card"/>
         <Card.Body className="card-body">
