@@ -8,15 +8,23 @@
   background-attachment: fixed;
 }
 
+.skill-logos-div{
+  width: 100%;
+}
+
+.skill-logos{
+  width: 100%;
+}
+
 .skill-icons{
   border-radius: 25px;
   margin: 10px;
   padding: 10px;
   background-color: rgba(255, 255, 255, .5);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  width: 40vw;
+  width: 80%;
   justify-content: space-evenly;
   opacity: 1;
   filter: brightness(1);
@@ -53,6 +61,26 @@
   }
   to {
       transform: translate3d(0, 15px, 0);
+  }
+}
+
+@media (max-width: 440px) {
+  .skills-div {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .skill-logo-div{
+    display: flex;
+    width: 50%;
+    height: 15%;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .skill-logos{
+    width: 100%;
+    justify-self: center;
   }
 }
 

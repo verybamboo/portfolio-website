@@ -16,16 +16,11 @@ export default function Sidebar() {
       className="side-bar-social"
       initial="hidden"
       animate="visible"
-      transition={{ duration: 1 }}
     >
       <motion.a
         href="https://www.linkedin.com/in/georgechen1338/"
         target={"_blank"}
         whileHover={{ scale: 1.2, color: "#0077b5" }}
-
-        inital={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.3 }}
         className="social-logos"
       >
         {<IoLogoLinkedin />}
@@ -33,9 +28,6 @@ export default function Sidebar() {
       <motion.a
         href="https://twitter.com/reallybamboo"
         whileHover={{ scale: 1.2, color: "#55acee" }}
-        inital={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.3 }}
         className="social-logos"
       >
         {<IoLogoTwitter />}
@@ -44,9 +36,6 @@ export default function Sidebar() {
         href="https://github.com/verybamboo"
         target={"_blank"}
         whileHover={{ scale: 1.2, color: "#e4405f" }}
-        inital={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.3 }}
         className="social-logos"
       >
         {<IoLogoGithub />}
@@ -55,9 +44,6 @@ export default function Sidebar() {
         href="mailto:georgechen1338@gmail.com"
         target={"_blank"}
         whileHover={{ scale: 1.2, color: "#0077b5" }}
-        inital={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.3 }}
         className="social-logos"
       >
         {<AiOutlineMail />}
@@ -66,9 +52,6 @@ export default function Sidebar() {
         href="https://www.instagram.com/verybamb00/"
         target={"_blank"}
         whileHover={{ scale: 1.2, color: "#cd201f" }}
-        inital={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.3 }}
         className="social-logos"
       >
         {<IoLogoInstagram />}

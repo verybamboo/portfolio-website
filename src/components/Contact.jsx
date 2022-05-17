@@ -26,49 +26,10 @@ export default function Contact() {
       <Container className="contact-container">
         <h1 className="contact-title">Contact me</h1>
         <p>
-          If you wish to get in touch with me, please don't hesitate to send me your email and a brief message. I'll get back to you promptly.
+          If you wish to get in touch with me, please don't hesitate to send me an email and a brief message. I'll get back to you promptly.
         </p>
-        <form className="contact-form">
+        <form className="contact-form" action="mailto:georgechen1338@gmail.com" method="POST" encType="multipart/form-data" name="emailform">
           <table className="contact-form-table">
-            <tr>
-              <td>
-                <span className="label"> Name:</span>
-                <motion.input
-                  type="text"
-                  placeholder="name"
-                  initial={{ opacity: 0, x: 2000 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 1 }}
-                  className="inputs"
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <span className="label"> Email:</span>
-                <motion.input
-                  type="text"
-                  placeholder="email"
-                  initial={{ opacity: 0, x: -1000 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 1 }}
-                  className="inputs"
-                />
-              </td>
-            </tr>
-            <tr>
-              <td className="label">
-                <span className="label"> Message:</span>
-                <motion.input
-                  type="text"
-                  placeholder="message"
-                  initial={{ opacity: 0, x: 2000 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 1 }}
-                  className="inputs"
-                />
-              </td>
-            </tr>
             <motion.button
               type="submit"
               className="submit-button"
@@ -79,7 +40,7 @@ export default function Contact() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.1 }}
             >
-              Submit
+              Email Me
             </motion.button>
           </table>
         </form>

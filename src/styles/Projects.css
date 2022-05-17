@@ -26,3 +26,11 @@
   color: white;
 }
 
+@media (max-width: 440px) {
+  .projects{
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+

@@ -6,7 +6,6 @@ export default function Topbar()
 {
   return (
     <div className="top-bar-div">
-      <div className="top-bar-name">George Chen</div>
       <a href="#home" className="top-bar-home">Home
       </a>  
       <a href="#skills" className="top-bar-skills">Skills
@@ -15,9 +14,9 @@ export default function Topbar()
       </a>
       <a href="#profile" className="top-bar-profile">Profile
       </a>
-      <a href="#contact" className="top-bar-contact">Contact Me
+      <a href="#contact" className="top-bar-contact">Contact
       </a>
-      <a href={resume} download={resume} className="top-bar-contact">Download Resume
+      <a href={resume} download={resume} className="top-bar-contact">Resume
       </a>
    </div>
   )

@@ -6,9 +6,11 @@
   justify-items: center;
   height: 10em;
   width: 3em;
-  top: 13em;
+  top: 10em;
   position: fixed;
   padding: 0.5em;
+  left: 1.5%;
+  z-index: 1;
 }
 
 .social-logos {

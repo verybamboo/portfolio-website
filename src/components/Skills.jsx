@@ -7,7 +7,7 @@ export default function Skills() {
     <div id="skills" className="skills-div">
       <div className="skill-icons">
         {imageSet.map((item, index) => (
-          <div>
+          <div className="skill-logo-div">
             <img
               src={require("../images/logos/" + item.image + ".svg")}
               height={120}
