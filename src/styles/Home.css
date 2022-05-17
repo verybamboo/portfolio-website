@@ -188,3 +188,9 @@
     transform: rotateY(359deg);
   }
 }
+
+@media (max-width: 440px){
+  .home-pic{
+    width: 175%;
+  }
+}
