@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <div id="projects">
       <div id="all-projects-tab" className="all-projects-div">
-        <Tabs defaultActiveKey="project-whackadiglett" className="all-projects">
+        <Tabs defaultActiveKey="project-whackadiglett" transition={false} className="all-projects">
           <Tab eventKey="project-whackadiglett" title="Whackadiglett" className="tab-button">
             <Whackadiglett />
           </Tab>
