@@ -68,3 +68,16 @@
   color: white;
   font-size: 20px;
 }
+
+.contact-email-link{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.contact-email-link:hover{
+  color: aqua;
+}

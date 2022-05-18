@@ -28,22 +28,9 @@ export default function Contact() {
         <p>
           If you wish to get in touch with me, please don't hesitate to send me an email and a brief message. I'll get back to you promptly.
         </p>
-        <form className="contact-form" action="mailto:georgechen1338@gmail.com" method="POST" encType="multipart/form-data" name="emailform">
-          <table className="contact-form-table">
-            <motion.button
-              type="submit"
-              className="submit-button"
-              whileHover={{
-                scale: 1.1,
-              }}
-              initial="none"
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.1 }}
-            >
-              Email Me
-            </motion.button>
-          </table>
-        </form>
+        <div className="contact-form" name="emailform">
+          <a className="contact-email-link" href="mailto:georgechen1338@gmail.com">Email Me</a>
+        </div>
         <h1 className="footer">George Chen, New York 2022 </h1>
       </Container>
     </Section>
