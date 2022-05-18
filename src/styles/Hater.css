@@ -1,6 +1,6 @@
-.main-div-ff{
+.hater-main-div{
   height: 94vh;
-  background: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .45)), url("../images/ffreactapi.png");
+  background: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .45)), url("../images/hater.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -8,28 +8,28 @@
   justify-content: center;
 }
 
-.react-whole-card{
+.hater-whole-card{
   margin: 10px;
 }
 
-.react-whole-card:hover{
+.hater-whole-card:hover{
   transition: 1s;
   box-shadow: -15px 15px 15px -15px rgba(255, 255, 255, .5);
 }
 
-.react-card-body{
+.hater-card-body{
   color: white;
   background-color: black;
   height: 80vh;
 }
 
-.react-card-title, .react-card-text, .react-card-links{
+.hater-card-title, .hater-card-text, .hater-card-links{
   text-align: center;
   text-decoration: none;
   color: white;
 }
 
-.react-links{
+.hater-card-links{
   text-align: center;
   text-decoration: none;
   color: white;
@@ -37,12 +37,12 @@
   font-weight: 800;
 }
 
-.react-links:hover{
-  color: blue;
+.hater-card-links:hover{
+  color: red;
 }
 
 @media (max-width: 440px){
-  .react-card-text{
+  .hater-card-text{
     padding: 25px;
   }
 }

@@ -4,6 +4,7 @@ import "../styles/Projects.css"
 import Whackadiglett from "./Whackadiglett";
 import FFreactapi from "./FFReactapi";
 import Backrub from "./Backrub"
+import Hater from "./Hater"
 
 export default function Projects() {
   return (
@@ -18,6 +19,9 @@ export default function Projects() {
           </Tab>
           <Tab eventKey="project-backrub" title="Backrub.wiki" className="tab-button">
             <Backrub />
+          </Tab>
+          <Tab eventKey="project-hater" title="Hater" className="tab-button">
+            <Hater />
           </Tab>
         </Tabs>
       </div>
