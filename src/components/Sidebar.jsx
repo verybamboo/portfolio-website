@@ -30,14 +30,6 @@ export default function Sidebar() {
         whileHover={{ scale: 1.2, color: "#55acee" }}
         className="social-logos"
       >
-        {<IoLogoTwitter />}
-      </motion.a>
-      <motion.a
-        href="https://github.com/verybamboo"
-        target={"_blank"}
-        whileHover={{ scale: 1.2, color: "#e4405f" }}
-        className="social-logos"
-      >
         {<IoLogoGithub />}
       </motion.a>
       <motion.a
@@ -47,14 +39,6 @@ export default function Sidebar() {
         className="social-logos"
       >
         {<AiOutlineMail />}
-      </motion.a>
-      <motion.a
-        href="https://www.instagram.com/verybamb00/"
-        target={"_blank"}
-        whileHover={{ scale: 1.2, color: "#cd201f" }}
-        className="social-logos"
-      >
-        {<IoLogoInstagram />}
       </motion.a>
     </motion.div>
   )

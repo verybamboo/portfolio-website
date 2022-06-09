@@ -14,9 +14,9 @@ export default function Projects() {
           <Tab eventKey="project-whackadiglett" title="Whackadiglett" className="tab-button">
             <Whackadiglett />
           </Tab>
-          {/* <Tab eventKey="project-ffapireact" title="Final Fantasy React API" className="tab-button">
+          <Tab eventKey="project-ffapireact" title="Final Fantasy React API" className="tab-button">
             <FFreactapi />
-          </Tab> */}
+          </Tab>
           <Tab eventKey="project-backrub" title="Backrub.wiki" className="tab-button">
             <Backrub />
           </Tab>
