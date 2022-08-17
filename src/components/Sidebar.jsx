@@ -26,7 +26,7 @@ export default function Sidebar() {
         {<IoLogoLinkedin />}
       </motion.a>
       <motion.a
-        href="https://twitter.com/reallybamboo"
+        href="https://github.com/verybamboo"
         whileHover={{ scale: 1.2, color: "#55acee" }}
         className="social-logos"
       >
